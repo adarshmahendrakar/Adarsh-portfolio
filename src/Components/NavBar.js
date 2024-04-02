@@ -6,31 +6,24 @@ import { Link } from "react-router-dom";
 function NavBar() {
 
   const handleDownload = () => {
-    // Replace 'url_to_pdf' with the actual URL of the PDF file
-    const url = "url_to_pdf";
+    const url = "/src/Components/adarsh_react_dev.pdf";
 
     fetch(url)
       .then((response) => {
-        // Check if response is successful
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
-        // Return response as blob
         return response.blob();
       })
       .then((blob) => {
-        // Create object URL for the blob
         const blobUrl = URL.createObjectURL(blob);
 
-        // Create a temporary anchor element
         const a = document.createElement("a");
         a.href = blobUrl;
         a.download = "adarsh_react_dev.pdf";
 
-        // Programmatically trigger the download
         a.click();
 
-        // Revoke the object URL to free up resources
         URL.revokeObjectURL(blobUrl);
       })
       .catch((error) => {

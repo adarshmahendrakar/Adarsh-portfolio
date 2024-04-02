@@ -11,10 +11,6 @@ export const ReachMe = () => {
           <div class="col-sm-12 col-lg-6">
             <h3 className="footer"> Made with 💙 in India - {year}</h3>
           </div>
-
-
-          {/* https://docs.google.com/document/d/1x1tCNe0yq-PF8KdFjFv2t__7mk5hkDonp0B7haolOfs/edit?usp=sharing */}
-
           <div class="col col-lg-2"></div>
           <div class="col-sm-12 col-lg-4">
             <div class="row">

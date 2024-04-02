@@ -22,7 +22,6 @@ export const AboutMe = () => {
             </p>
           </div>
           <div class="col-md-7 right-part portfolio-img">
-            {/* <p>Design is not just what it looks like. Design is how it works!</p> */}
             <img src={adarsh_portfolio_img} alt="adarsh_portfolio_img" width={350} height={350} />
           </div>
         </div>
