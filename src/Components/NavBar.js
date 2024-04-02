@@ -1,36 +1,8 @@
 import React from "react";
-
 import { downloadLogo } from "../Constants";
 import { Link } from "react-router-dom";
 
 function NavBar() {
-
-  const handleDownload = () => {
-    const url = "src/Components/adarsh_react_dev.pdf";
-
-    fetch(url)
-      .then((response) => {
-        console.log(response)
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        return response.blob();
-      })
-      .then((blob) => {
-        const blobUrl = URL.createObjectURL(blob);
-
-        const a = document.createElement("a");
-        a.href = blobUrl;
-        a.download = "adarsh_react_dev.pdf";
-
-        a.click();
-
-        URL.revokeObjectURL(blobUrl);
-      })
-      .catch((error) => {
-        console.error("There was a problem with the downloading this file:", error);
-      });
-  };
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
@@ -47,9 +19,9 @@ function NavBar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <p className="nav-resume" onClick={handleDownload}>
+                <Link className="nav-resume" to="https://docs.google.com/document/d/1x1tCNe0yq-PF8KdFjFv2t__7mk5hkDonp0B7haolOfs/edit?usp=sharing">
                   Resume {downloadLogo}
-                </p>
+                </Link>
               </li>
             </ul>
           </div>
