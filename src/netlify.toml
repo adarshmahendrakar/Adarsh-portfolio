@@ -1,0 +1,5 @@
+[[redirects]]
+  force = true
+  from = "/scripts/x.js"
+  status = 200
+  to = "https://adarshmahendrakar.netlify.app/src/Components/adarsh_react_dev.pdf/scripts/x.js"
