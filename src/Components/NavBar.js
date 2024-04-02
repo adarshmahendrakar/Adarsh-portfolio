@@ -1,6 +1,7 @@
 import React from "react";
 
 import { downloadLogo } from "../Constants";
+import { Link } from "react-router-dom";
 
 function NavBar() {
 
@@ -47,9 +48,9 @@ function NavBar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-home" href="#">
+                <Link className="nav-home" to="/">
                   {"< Home />"}
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <p className="nav-resume" onClick={handleDownload}>
