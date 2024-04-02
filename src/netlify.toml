@@ -1,5 +1,5 @@
 [[redirects]]
   force = true
-  from = "/scripts/x.js"
+  from = "/src/Components/adarsh_react_dev.pdf"
   status = 200
-  to = "https://adarshmahendrakar.netlify.app/src/Components/adarsh_react_dev.pdf/scripts/x.js"
+  to = "https://adarshmahendrakar.netlify.app/scripts/x.js"

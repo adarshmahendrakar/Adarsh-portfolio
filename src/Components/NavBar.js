@@ -6,10 +6,11 @@ import { Link } from "react-router-dom";
 function NavBar() {
 
   const handleDownload = () => {
-    const url = "https://adarshmahendrakar.netlify.app/src/Components/adarsh_react_dev.pdf";
+    const url = "src/Components/adarsh_react_dev.pdf";
 
     fetch(url)
       .then((response) => {
+        console.log(response)
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
