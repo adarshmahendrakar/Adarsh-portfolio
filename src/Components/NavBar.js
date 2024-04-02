@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function NavBar() {
 
   const handleDownload = () => {
-    const url = "/src/Components/adarsh_react_dev.pdf";
+    const url = "https://adarshmahendrakar.netlify.app/src/Components/adarsh_react_dev.pdf";
 
     fetch(url)
       .then((response) => {
