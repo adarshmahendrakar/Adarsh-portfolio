@@ -1,0 +1,212 @@
+.nav-home {
+  color: #4dba87;
+  font-weight: 900;
+  text-decoration: none;
+  margin-right: 200px;
+}
+
+.nav-home:hover {
+  color: #4dba87;
+  text-decoration: none;
+}
+
+.nav-about {
+  overflow: hidden;
+  color: #f4f7f6;
+  font-weight: 400;
+  margin-right: 80px;
+  text-decoration: none;
+}
+
+.nav-resume {
+  overflow: hidden;
+  color: #f4f7f6;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.nav-about:hover {
+  color: #4dba87;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-resume:hover {
+  color: #04aa6d;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-head-name {
+  color: #4dba87;
+}
+
+.btn {
+  background-color: #4dba87; /* Green color */
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.desc-container {
+  margin-top: 5%;
+}
+
+.fancy-text-header {
+  font-size: 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 500;
+  font-style: oblique;
+  font-variant-ligatures: historical-ligatures;
+  color: #f4f7f6;
+}
+
+.fancy-text-sub-header {
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 500;
+  font-style: oblique;
+  font-variant-ligatures: historical-ligatures;
+  color: #f4f7f6;
+}
+
+.mydesc {
+  font-size: 1rem;
+  font-variant: small-caps;
+  color: var(--color-1);
+  font-weight: bold;
+}
+.txt-rotate {
+  font-size: 1rem;
+}
+
+.txt-rotate::after {
+  content: "";
+  right: 0;
+  width: 2px;
+  z-index: 3;
+  border-right: 1px solid var(--color-1);
+  margin-left: 3px;
+}
+
+.fancy-text-description {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #f4f7f6;
+}
+
+.portfolio-img {
+  justify-content: flex-end;
+  display: flex;
+}
+
+
+.mediaIcon-img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    align-content: flex-end;
+
+    text-align: end;
+
+  }
+
+.container-experience {
+  background-color: #2d2e32;
+}
+
+.experience-body {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.skills-body {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #f6f9f8;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: fit-content; */
+}
+
+.compony-name {
+  font-size: xx-large;
+  font-weight: 700;
+  color: #4dba87;
+}
+
+.role {
+  font-size: 16px;
+  font-weight: 500;
+  color: #3c4a45;
+}
+
+.footer {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fafcfc;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.skill-img{
+    width: 100px;
+    height: 100px;
+}
+
+.media-icon{
+    width: 40px;
+    height: 40px;
+
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio-img {
+    justify-content: center;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio-img {
+    justify-content: center;
+    display: flex;
+  }
+
+  .skill-img{
+    width: 40px;
+    height: 40px;
+}
+.skill-label {
+    font-size: 10px;
+    font-weight: 200;
+    color: #f6f9f8;
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: fit-content; */
+  }
+
+}
