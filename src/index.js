@@ -15,7 +15,6 @@ root.render(
     <div className='bg-dark'>
     <Home />
     </div>
-
   </BrowserRouter>
 );
 

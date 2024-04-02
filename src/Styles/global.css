@@ -23,6 +23,7 @@
   color: #f4f7f6;
   font-weight: 400;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .nav-about:hover {
