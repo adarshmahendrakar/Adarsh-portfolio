@@ -1,5 +1,5 @@
 import React from "react";
-import { projectsData, skills } from "../Constants";
+import { skills } from "../Constants";
 
 export const Skills = () => {
   return (
